@@ -1,5 +1,5 @@
 # ng-Todo
-First app using WebPack + ES2015 + WEBSQL + SASS + Angular v1.5
+Primera appl desarrollada, utilizando tecnologias como WebPack + ES2015 + WEBSQL + SASS + Angular v1.5
 
 Instalar dependencias
 ```sh
