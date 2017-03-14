@@ -1,0 +1,17 @@
+<div class="todo-container">
+	<h4>ng-ToDo</h4>
+	<h2>What is in your Bucket List</h2>
+
+	<todo-form on-submit="$ctrl.addTodo($event);"></todo-form>
+	<todo-list
+	  list="$ctrl.todoList"
+    on-delete="$ctrl.deleteTodo($event)"
+    on-update="$ctrl.updateTodo($event)"
+    on-toggle="$ctrl.toggleTodo($event)">
+	</todo-list>
+
+	<todo-footer
+		on-clear-todos="$ctrl.clearTodos()">
+	</todo-footer>
+
+</div>
