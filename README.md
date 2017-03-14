@@ -1,7 +1,5 @@
-# Mesh Challenge
-
-##
-
+# ng-Todo
+First app using WebPack + ES2015 + WEBSQL + SASS + Angular v1.5
 
 Instalar dependencias
 ```sh
